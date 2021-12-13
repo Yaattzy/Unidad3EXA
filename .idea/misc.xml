@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_agregar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2064814814814815" />
         <entry key="app/src/main/res/layout/item_alumno.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_car.xml" value="0.31574074074074077" />
       </map>
     </option>
   </component>

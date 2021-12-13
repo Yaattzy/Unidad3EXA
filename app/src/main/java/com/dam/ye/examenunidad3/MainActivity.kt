@@ -1,11 +1,13 @@
 package com.dam.ye.examenunidad3
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.dam.ye.examenunidad3.adapter.AlumnoAdapter
+import com.dam.ye.examenunidad3.adapter.CarAdapter
 import com.dam.ye.examenunidad3.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -31,8 +33,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun configRecyclerView() {
 
-        binding.rvAlumnos.layoutManager = LinearLayoutManager(this)
-        binding.rvAlumnos.setHasFixedSize(true)
-        binding.rvAlumnos.adapter = AlumnoAdapter(listOf<AlumnoModel>())
+        binding.rvCars.layoutManager = GridLayoutManager(this, 2)
+        binding.rvCars.setHasFixedSize(true)
+        binding.rvCars.adapter = CarAdapter(listOf<CarModel>())
     }
 }

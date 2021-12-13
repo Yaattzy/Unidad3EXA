@@ -2,7 +2,7 @@ package com.dam.ye.examenunidad3
 
 import androidx.lifecycle.ViewModel
 
-class AlumnoViewModel: ViewModel() {
+class CarViewModel: ViewModel() {
 
     // UTILIZAR LIVE DATA
 

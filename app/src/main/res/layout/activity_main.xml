@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvAlumnos"
+        android:id="@+id/rv_cars"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical"
         android:paddingTop="4dp"
-        tools:listitem="@layout/item_alumno"/>
+        tools:listitem="@layout/item_car"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
